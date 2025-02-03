@@ -35,13 +35,13 @@ function mostrarListaAmigos(){
     });
 } 
 function sortearAmigo() {
-    if (amigos.length = 0){
-        alert('El array esta vacío');               
+    if (amigos.length === 0){
+        alert('El array esta vacío');
+        return;               
     } else{
-        let amigoElegido = parseInt(Math.random()*numeroLimite+1));
-        let cantidadDeAmigos = amigos.length;  
-        if (cantidadDeAmigos == amigoElegido){
-            amigos = [];
+        let indiceAleatorio = Math.floor(Math.random()*amigos.length);
+        let amigoSorteado = amigos[indiceAleatorio];
+        document.getElementById('resultado').innerHTML = `El amigo sorteado es: ${amigoSorteado}`;
         }
     }
 }
