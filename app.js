@@ -34,14 +34,12 @@ function mostrarListaAmigos(){
         listaAmigos.appendChild(li);
     });
 } 
-function sortearAmigo() {
+function sortearAmigo(){
     if (amigos.length === 0){
-        alert('El array esta vacío');
-        return;               
-    } else{
-        let indiceAleatorio = Math.floor(Math.random()*amigos.length);
-        let amigoSorteado = amigos[indiceAleatorio];
-        document.getElementById('resultado').innerHTML = `El amigo sorteado es: ${amigoSorteado}`;
-        }
+        alert("El array esta vacío");
+        return;
     }
+    const indiceAleatorio = Math.floor(Math.random()*amigos.length);
+    const amigoElegido = amigos[indiceAleatorio];
+    document.getElementById('resultado').innerHTML = `El amigo sorteado es: ${amigoElegido}`;
 }
