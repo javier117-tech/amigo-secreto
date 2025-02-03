@@ -35,11 +35,15 @@ function mostrarListaAmigos(){
     });
 } 
 function sortearAmigo(){
+    //Validar que haya amigos disponibles
     if (amigos.length === 0){
         alert("El array esta vacío");
         return;
     }
+    //Generar un índice aleatorio
     const indiceAleatorio = Math.floor(Math.random()*amigos.length);
+    //Obtener el nombre sorteado:
     const amigoElegido = amigos[indiceAleatorio];
+    //Mostrar el resultado: 
     document.getElementById('resultado').innerHTML = `El amigo sorteado es: ${amigoElegido}`;
 }
