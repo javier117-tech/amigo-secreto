@@ -34,6 +34,14 @@ function mostrarListaAmigos(){
         listaAmigos.appendChild(li);
     });
 } 
-function sorteoAleatorio() {
-
+function sortearAmigo() {
+    if (amigos.length = 0){
+        alert('El array esta vacío');               
+    } else{
+        let amigoElegido = parseInt(Math.random()*numeroLimite+1));
+        let cantidadDeAmigos = amigos.length;  
+        if (cantidadDeAmigos == amigoElegido){
+            amigos = [];
+        }
+    }
 }
