@@ -14,11 +14,11 @@
 - Estado del proyecto
 - Funcionalidades
 - Acceso al proyecto
-- Personas-Desarrolladores del Proyecto
-- Conclusión
+- Autor
+
+  
 ## Introdución
 Se presenta el desarrollo de un proyecto simple sobre la creación de una página web que pide el nombre de tus amigos y los sortea de forma aleatoria y divertida 
-
 
 
 ## Estado Del Proyecto
