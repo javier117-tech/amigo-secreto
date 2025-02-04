@@ -9,8 +9,8 @@
 
 
 ## Indice
-- Título e imagen de portada
-- Descripción del proyecto
+- Título 
+- Introducción
 - Estado del proyecto
 - Funcionalidades
 - Acceso al proyecto
