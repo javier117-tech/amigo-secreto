@@ -10,14 +10,16 @@ function agregarAmigo() {
     if (nombreAmigo === ''){
         alert("Error ingrese un nombre: ");
         return;
-    } else {
-        // Actualizar el array de amigos: 
-        amigos.push(nombreAmigo); 
-        //limpiar el campo de entrada
-        document.getElementById('amigo').value = "";
-        console.log(amigos);
-        mostrarListaAmigos();
+    } if (amigos.includes(nombreAmigo)){
+        alert(`¡${nombreAmigo} ese nombre ya fue registrado`);
+        return;
     }
+    // Actualizar el array de amigos: 
+    amigos.push(nombreAmigo); 
+    //limpiar el campo de entrada
+    document.getElementById('amigo').value = "";
+    console.log(amigos);
+    mostrarListaAmigos();
 }
 function mostrarListaAmigos(){
     // Obtener el elemento <ul>
