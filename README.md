@@ -30,7 +30,7 @@ El proyecto cuenta con 3 funciones que realizan distintos funcionamientos a la h
 - `function mostrarListaAmigos`:Recorre el array amigos y agrega cada nombre como un elemento <li> dentro de una lista HTML.
 - `function sortearAmigo`:seleccione de manera aleatoria uno de los nombres almacenados en el array amigos. Usando Math.random() y Math.floor() para obtener un índice aleatorio.
 ## Acceso al proyecto
-\## 📁 link de Acceso: https://javier117-tech.github.io/amigo-secreto/
+## 📁 link de Acceso: https://javier117-tech.github.io/amigo-secreto/
 
 
 ## Tecnologías utilizadas
